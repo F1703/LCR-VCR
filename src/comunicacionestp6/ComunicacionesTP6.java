@@ -98,7 +98,7 @@ public class ComunicacionesTP6 {
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //a la matriz le calcula el VCR y el LCR
         System.out.println("\n\033[33m Calculando el VCR y LCR ...");
-        System.out.println("\033[33m Matriz modificada satisfactoriamente.");
+        
         for (int i = 0; i < filas; i++) {
             for (int j = 0; j < cols; j++) {
                 System.out.print(" ["+vector[i][j]+"] ");
@@ -136,6 +136,7 @@ public class ComunicacionesTP6 {
             cont_c=0;
             System.out.println("");
         }
+        System.out.println("\033[33m Matriz modificada satisfactoriamente.");
         System.out.println("\033[33m=====================[END MATRIZ AUTOMATICA]=====================");
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         corregirMatriz(vector, filas, cols);
